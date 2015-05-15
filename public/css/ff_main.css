@@ -1,0 +1,121 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #fefefe;
+}
+
+.container {
+    display: block;
+    width: 740px;
+    height: 680px;
+    border-right: 1px solid #dedede;
+    border-bottom: 1px solid #dedede;
+    border-left: 1px solid #dedede;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    padding: 0;
+}
+
+.content {
+    display: block;
+    width: 740px;
+    padding: 5px 15px;
+}
+
+.quote {
+    font-weight: 300;
+    font-size: 14px;
+}
+
+table tr td {
+    font-size: 9px;
+}
+
+table.links {
+}
+
+table.dataTable, .dataTables_info{
+    font-size: 9px !important;
+}
+
+.row_pin {
+    width: 10px;
+}
+.row_pin input{
+    cursor: pointer;
+}
+
+.row_title,
+.row_alt {
+    width: 78px;
+    font-size: 9px;
+}
+
+.row_src {
+    width: 470px;
+    white-space: nowrap;
+    word-wrap: normal;
+}
+
+.row_src span,
+.row_src i,
+.row_alt span,
+.row_title span {
+    display: inline-block;
+    white-space: nowrap;
+    word-wrap: normal;
+    width: 460px;
+    overflow: hidden;
+}
+
+.row_src .glyphicon {
+    width: 10px;
+    height: 10px;
+    margin-right: 5px;
+}
+
+.row_title span,
+.row_alt span {
+    width: 75px;
+}
+
+/**/
+
+.glyphicon-picture {
+    color: #ec971f;
+}
+.glyphicon-screenshot{
+    color: #ac2925;
+}
+
+.glyphicon-list-alt {
+    color: #aaa;
+}
+
+.sess-tabs>li>a{
+    padding: 6px 10px 4px 10px;
+}
+
+.category-tabs{
+    margin-top: 3px;
+    background-color: #dfdfdf;
+}
+
+.category-tabs>li>a{
+    padding: 4px 8px 2px 8px;
+    font-size: 12px;
+}
+
+.links-controls-panel{
+    margin-top: 10px;
+}
+.links-controls{
+    height: 240px;
+}
+
+
+/*///////////*/
+
+.row-checked td{
+    background-color: #c3ffc9;
+}
